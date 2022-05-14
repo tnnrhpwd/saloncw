@@ -1,6 +1,6 @@
 # Salon CW
 
-This project was built for Salon CW Cuts, a great business full of great people. Visot the live site at [http://localhost:3000](http://localhost:3000).
+This project was built for Salon CW Cuts, a great business full of great people. Visit the live site at [https://saloncw.netlify.app/](https://saloncw.netlify.app/).
 
 ## Available Scripts
 
