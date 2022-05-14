@@ -31,25 +31,47 @@
 
 
 .links{
-  height: 60vh;
+  min-height: 60vh;
 }
 .links-appointments{
   background-color: var(--clr-lblue);
+  padding-top: calc(var(--std-unit)*0.5);
+  padding-bottom: calc(var(--std-unit)*0.5);
 }
 .links-appointments-text{
-
+  padding-bottom: calc(var(--std-unit)*0.25);
+}
+.links-appointments-lk{
+  margin-left: calc(var(--std-unit)*0.2);
+  margin-right: calc(var(--std-unit)*0.2);
 }
 .links-appointments-link{
-
+  background-color: var(--text-clr);
+  color: var(--text-clr-inv);
+  font-size: calc(var(--std-unit)*0.2);
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: calc(var(--std-unit)*0.15);
+  cursor: pointer;
+  border: none;
+}
+.links-appointments-link:hover{
+  background-color: var(--clr-grey0);
+  filter: brightness(2);
 }
 .links-location{
-  columns: 2;
-}
-.links-location-title{
-  font-weight: bold;
+  margin-top: calc(var(--std-unit)*0.5);
 }
 .links-location-desc{
 
+}
+.links-location-desc-side{
+  width: calc(var(--std-unit)*4);
+  display: inline-block;
+  vertical-align: top;
+}
+.links-location-title{
+  font-weight: bold;
+  display: block;
 }
 .links-location-add{
 
@@ -64,8 +86,30 @@
 
 }
 .links-profiles-div{
+  text-align: center;
+  padding-top: calc(var(--std-unit)*1);
+}
+.links-profiles-div-btn{
+  margin: calc(var(--std-unit)*.2);
+  display: inline-block;
+}
+.links-profiles-div-btn-lnk{
 
 }
+.links-profiles-div-btn-btn{
+  background-color: var(--text-clr);
+  color: var(--text-clr-inv);
+  font-size: calc(var(--std-unit)*0.2);
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: calc(var(--std-unit)*0.15);
+  cursor: pointer;
+  border: none;
+}
+.links-profiles-div-btn-btn:hover{
+  background-color: var(--clr-grey0);
+  filter: brightness(2);
+}
+
 
 
 
@@ -87,7 +131,7 @@
 
 }
 .footer-copyright{
-  padding-top: calc(var(--std-unit)*0.3);
+  padding-top: calc(var(--std-unit)*0.4);
 }
 .footer-links-fb{
   width: calc(var(--std-unit)*0.5);

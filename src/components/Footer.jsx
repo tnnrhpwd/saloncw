@@ -13,13 +13,13 @@ function Footer() {
       <div className='footer-copyright'>
         © {year}
       </div>
-      <div className='footer-links'>
+      {/* <div className='footer-links'>
         <img className='footer-links-fb' src={fbimg} alt='facebook logo'/>
         <div className='footer-links-ig-bg'>
           <img className='footer-links-ig' src={igimg} alt='instagram logo'/>
         </div>
 
-      </div>
+      </div> */}
     </div>
   )
 }
