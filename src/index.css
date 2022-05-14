@@ -16,14 +16,17 @@ code {
   --clr-peach: rgb(233, 89, 80);
   --clr-fbblue: rgb(59, 89, 152);
   --clr-lblue: rgb(242, 242, 242);
+  --clr-lblue1: rgb(185, 197, 211);
   --clr-white: rgb(255, 255, 255);
   --clr-black: rgb(0, 0, 0);
   --clr-grey0: rgb(30, 30, 30);
   --clr-cw: rgb(36, 33, 34);
 
+
   --bg: var(--clr-white);
   --text-clr: var(--clr-black);
   --text-clr-inv: var(--clr-white);
+  --border-clr: var(--clr-lblue1);
   --bg-footer: var(--clr-cw);
 }
 

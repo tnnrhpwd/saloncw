@@ -3,9 +3,7 @@
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-@media (orientation: landscape) {
 
-}
 .header{
   position: fixed;
   left: 0;
@@ -21,11 +19,16 @@
 
 
 .background{
-  height: 50vh;
+  height: 70vh;
   overflow: hidden;
+
+
 }
 .background-img{
+  /* clip: rect(600px,600px,20px,600px); */
   width: 100vw;
+  height: 80vh;
+  object-fit: cover;
 }
 
 
@@ -37,6 +40,7 @@
   background-color: var(--clr-lblue);
   padding-top: calc(var(--std-unit)*0.5);
   padding-bottom: calc(var(--std-unit)*0.5);
+  border-bottom: calc(var(--std-unit)*0.001) solid var(--border-clr) ;
 }
 .links-appointments-text{
   padding-bottom: calc(var(--std-unit)*0.25);
@@ -64,6 +68,9 @@
 .links-location-desc{
 
 }
+.links-location-maps{
+  margin-bottom: calc(var(--std-unit)*0.5);
+}
 .links-location-desc-side{
   width: calc(var(--std-unit)*4);
   display: inline-block;
@@ -72,22 +79,33 @@
 .links-location-title{
   font-weight: bold;
   display: block;
+  margin-bottom: calc(var(--std-unit)*0.1);
 }
 .links-location-add{
 
 }
 .links-location-dir{
-
+  margin-bottom: calc(var(--std-unit)*0.5);
+}
+.links-location-dir-btn{
+  background-color: var(--text-clr);
+  color: var(--text-clr-inv);
+  font-size: calc(var(--std-unit)*0.2);
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: calc(var(--std-unit)*0.15);
+  cursor: pointer;
+  border: none;
 }
 .links-location-hours{
-
+  margin-bottom: calc(var(--std-unit)*0.75);
 }
 .links-profiles{
+  margin-bottom: calc(var(--std-unit)*0.5);
 
 }
 .links-profiles-div{
   text-align: center;
-  padding-top: calc(var(--std-unit)*1);
+  padding-top: calc(var(--std-unit)*.2);
 }
 .links-profiles-div-btn{
   margin: calc(var(--std-unit)*.2);
@@ -133,17 +151,25 @@
 .footer-copyright{
   padding-top: calc(var(--std-unit)*0.4);
 }
-.footer-links-fb{
-  width: calc(var(--std-unit)*0.5);
-  padding-top: calc(var(--std-unit)*0.3);
-}
-.footer-links-ig-bg{
-  background-color: var(--clr-peach);
-  border-radius: 50%;
-  width: calc(var(--std-unit)*0.6);
-  height: calc(var(--std-unit)*0.6);
-}
-.footer-links-ig{
-  width: calc(var(--std-unit)*0.3);
-  padding-top: calc(var(--std-unit)*0.15);
+
+
+@media (orientation: landscape) {
+  .header-img{
+    width: calc(var(--std-unit)*1.6);
+  }
+  .links-appointments-link{
+    font-size: calc(var(--std-unit)*0.12);
+  }
+  .links-location-dir-btn{
+    font-size: calc(var(--std-unit)*0.12);
+  }
+  .links-profiles-div-btn-btn{
+    font-size: calc(var(--std-unit)*0.12);
+  }
+  .footer-img{
+    width: calc(var(--std-unit)*0.7);
+  }
+  .footer-copyright{
+    padding-top: calc(var(--std-unit)*0.3);
+  }
 }
