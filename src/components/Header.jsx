@@ -1,8 +1,10 @@
-import React from 'react'
+import cwlogo from './../assets/CWLogo.png'
 
 function Header() {
   return (
-    <div>Header</div>
+    <div className='header'>
+      <img src={cwlogo} alt="saloncw logo" className="header-img" />
+    </div>
   )
 }
 

@@ -1,12 +1,78 @@
 .App {
   text-align: center;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 @media (orientation: landscape) {
 
 }
-.footer{
+.header{
   position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-color: var(--bg);
+  color: var(--text-clr);
+  text-align: center;
+}
+.header-img{
+  width: calc(var(--std-unit)*2.7);
+}
+
+
+.background{
+  height: 50vh;
+  overflow: hidden;
+}
+.background-img{
+  width: 100vw;
+}
+
+
+
+.links{
+  height: 60vh;
+}
+.links-appointments{
+  background-color: var(--clr-lblue);
+}
+.links-appointments-text{
+
+}
+.links-appointments-link{
+
+}
+.links-location{
+  columns: 2;
+}
+.links-location-title{
+  font-weight: bold;
+}
+.links-location-desc{
+
+}
+.links-location-add{
+
+}
+.links-location-dir{
+
+}
+.links-location-hours{
+
+}
+.links-profiles{
+
+}
+.links-profiles-div{
+
+}
+
+
+
+
+
+.footer{
+  /* position: fixed; */
   left: 0;
   bottom: 0;
   width: 100%;

@@ -1,6 +1,5 @@
 import Header from './components/Header';
-import Appointment from './components/Appointment';
-import Instagram from './components/Instagram';
+import Background from './components/Background';
 import Links from './components/Links';
 import Footer from './components/Footer';
 import './App.css';
@@ -10,8 +9,7 @@ function App() {
     <div className="App">
       <Header/>
        insert img
-      <Appointment/>
-      <Instagram/>
+      <Background/>
       <Links/>
       <Footer/>
     </div>
