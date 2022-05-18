@@ -97,6 +97,14 @@ function Links() {
               Saturday 9:00am - 1:00pm <br/>
               Sunday Closed <br/>
             </div>
+            <div className="links-location-title">
+              Email
+            </div>
+            <div className="links-location-email">
+              <a href="mailto:CWCuts@gmail.com">
+                CWCuts@gmail.com
+              </a>
+            </div>
           </div>
         </div>
       </div>

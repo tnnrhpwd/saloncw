@@ -97,6 +97,9 @@
   border: none;
 }
 .links-location-hours{
+  margin-bottom: calc(var(--std-unit)*0.15);
+}
+.links-location-email{
   margin-bottom: calc(var(--std-unit)*0.75);
 }
 .links-profiles{
